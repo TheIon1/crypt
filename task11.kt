@@ -28,5 +28,5 @@ fun main(vararg args: String) {
     //d
     println("Введите сколько младших бит вы хотите обнулить")
     val m = readLine()!!.toInt()
-    println("Обнулив m младших битов получили..." + a.shiftRight(m).shiftLeft(m).toString(2))
+    println("Обнулив m младших бит получили..." + a.shiftRight(m).shiftLeft(m).toString(2))
 }
